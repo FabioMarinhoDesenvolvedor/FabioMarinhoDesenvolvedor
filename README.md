@@ -9,12 +9,14 @@ Desenvolvo aplicações web, APIs e ferramentas que resolvem problemas do dia a 
 
 `fabio@github:~$ ls ~/projects --featured`
 
-| Projeto | O que construí | Tecnologias |
-| :--- | :--- | :--- |
-| [connections-hub](https://github.com/FabioMarinhoDesenvolvedor/connections-hub) | Site multilíngue, blog em Markdown e experiências 3D. | Next.js · React · TypeScript · Three.js |
-| [tasks](https://github.com/FabioMarinhoDesenvolvedor/tasks) | Organizador de tarefas offline para Windows, com quadros, calendário e backup local. | Rust · Tauri · React · SQLite |
-| [wsn-front](https://github.com/FabioMarinhoDesenvolvedor/wsn-front) | Website institucional da WSN Distribuidora. | React · TypeScript · Vite |
-| [chamados-repo](https://github.com/FabioMarinhoDesenvolvedor/chamados-repo) | Sistema de chamados de TI com triagem e histórico. **Versão arquivada.** | NestJS · Prisma · PostgreSQL |
+- **[connections-hub](https://github.com/FabioMarinhoDesenvolvedor/connections-hub)** — Site multilíngue, blog em Markdown e experiências 3D.  
+  `Next.js · React · TypeScript · Three.js`
+- **[tasks](https://github.com/FabioMarinhoDesenvolvedor/tasks)** — Organizador offline para Windows, com quadros, calendário e backup local.  
+  `Rust · Tauri · React · SQLite`
+- **[wsn-front](https://github.com/FabioMarinhoDesenvolvedor/wsn-front)** — Website institucional da WSN Distribuidora.  
+  `React · TypeScript · Vite`
+- **[chamados-repo](https://github.com/FabioMarinhoDesenvolvedor/chamados-repo)** — Sistema de chamados de TI com triagem e histórico. Versão arquivada.  
+  `NestJS · Prisma · PostgreSQL`
 
 `fabio@github:~$ cat links.txt`
 
