@@ -1,0 +1,32 @@
+name: Update terminal profile
+on:
+  schedule:
+    - cron: '23 9 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', '.github/workflows/profile.yml']
+permissions:
+  contents: write
+concurrency:
+  group: profile-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate from public GitHub data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/generate.py
+      - name: Commit updated snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/terminal.svg assets/terminal-mobile.svg assets/stats.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh public profile statistics'
+            git push
+          fi
