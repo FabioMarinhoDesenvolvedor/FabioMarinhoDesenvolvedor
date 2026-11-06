@@ -46,7 +46,7 @@ def sphere():
     return lines
 
 def render(data, mobile=False):
-    w=460 if mobile else 1040; h=1080 if mobile else 770
+    w=360 if mobile else 1040; h=1080 if mobile else 770
     out=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title desc">', '<title id="title">Fábio Marinho — Full-Stack Developer</title><desc id="desc">Terminal profile with original ASCII globe, verified technologies and public GitHub statistics.</desc>',f'<rect width="{w}" height="{h}" rx="8" fill="#0c1016"/>',f'<rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="8" fill="none" stroke="#263343"/>','<g font-family="DejaVu Sans Mono, Consolas, monospace" font-size="15" fill="#c9d1dc">']
     def text(x,y,s,color='#c9d1dc',size=15): out.append(f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" xml:space="preserve">{html.escape(str(s))}</text>')
     def line(y): out.append(f'<path d="M24 {y} H{w-24}" stroke="#263343"/>')
@@ -59,7 +59,7 @@ def render(data, mobile=False):
     def row(label,value):
         nonlocal y
         if mobile:
-            text(x,y,label,'#7cadd9',13);y+=23;text(x,y,value,size=14);y+=31
+            text(x,y,label,'#7cadd9',13);y+=23;text(x,y,value,size=16);y+=31
         else:
             text(x,y,label,'#7cadd9',14);text(x+135,y,value,size=14);y+=27
     text(x,y,'Fábio Marinho','#edf3fa',23);y+=28
