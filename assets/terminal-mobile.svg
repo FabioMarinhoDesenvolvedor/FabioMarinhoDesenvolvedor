@@ -1,44 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="460" height="1038" viewBox="0 0 460 1038" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="1038" viewBox="0 0 360 1038" role="img" aria-labelledby="title desc">
 <title id="title">Fábio Marinho — Full-Stack Developer</title><desc id="desc">Terminal profile with original ASCII globe, verified technologies and public GitHub statistics.</desc>
-<rect width="460" height="1038" rx="8" fill="#0c1016"/>
-<rect x=".5" y=".5" width="459" height="1037" rx="8" fill="none" stroke="#263343"/>
+<rect width="360" height="1038" rx="8" fill="#0c1016"/>
+<rect x=".5" y=".5" width="359" height="1037" rx="8" fill="none" stroke="#263343"/>
 <g font-family="DejaVu Sans Mono, Consolas, monospace" font-size="15" fill="#c9d1dc">
 <text x="24" y="34" fill="#7cadd9" font-size="16" xml:space="preserve">fabio@github:~$</text>
 <text x="204" y="34" fill="#dde6ef" font-size="16" xml:space="preserve">fastfetch</text>
-<path d="M24 53 H436" stroke="#263343"/>
+<path d="M24 53 H336" stroke="#263343"/>
 <text x="24" y="89" fill="#edf3fa" font-size="23" xml:space="preserve">Fábio Marinho</text>
 <text x="24" y="117" fill="#728395" font-size="13" xml:space="preserve">FabioMarinhoDesenvolvedor</text>
 <text x="24" y="156" fill="#7cadd9" font-size="13" xml:space="preserve">Role</text>
-<text x="24" y="179" fill="#c9d1dc" font-size="14" xml:space="preserve">Full-Stack Developer</text>
+<text x="24" y="179" fill="#c9d1dc" font-size="16" xml:space="preserve">Full-Stack Developer</text>
 <text x="24" y="210" fill="#7cadd9" font-size="13" xml:space="preserve">Location</text>
-<text x="24" y="233" fill="#c9d1dc" font-size="14" xml:space="preserve">São Paulo, Brazil</text>
+<text x="24" y="233" fill="#c9d1dc" font-size="16" xml:space="preserve">São Paulo, Brazil</text>
 <text x="24" y="264" fill="#7cadd9" font-size="13" xml:space="preserve">Focus</text>
-<text x="24" y="287" fill="#c9d1dc" font-size="14" xml:space="preserve">Web applications / APIs / SaaS</text>
+<text x="24" y="287" fill="#c9d1dc" font-size="16" xml:space="preserve">Web applications / APIs / SaaS</text>
 <text x="24" y="325" fill="#7cadd9" font-size="13" xml:space="preserve">Languages</text>
-<text x="24" y="348" fill="#c9d1dc" font-size="14" xml:space="preserve">TypeScript / JavaScript / Rust</text>
+<text x="24" y="348" fill="#c9d1dc" font-size="16" xml:space="preserve">TypeScript / JavaScript / Rust</text>
 <text x="24" y="379" fill="#7cadd9" font-size="13" xml:space="preserve">Frontend</text>
-<text x="24" y="402" fill="#c9d1dc" font-size="14" xml:space="preserve">React / Next.js / Vite</text>
+<text x="24" y="402" fill="#c9d1dc" font-size="16" xml:space="preserve">React / Next.js / Vite</text>
 <text x="24" y="433" fill="#7cadd9" font-size="13" xml:space="preserve">Backend</text>
-<text x="24" y="456" fill="#c9d1dc" font-size="14" xml:space="preserve">Node.js / NestJS / Prisma</text>
+<text x="24" y="456" fill="#c9d1dc" font-size="16" xml:space="preserve">Node.js / NestJS / Prisma</text>
 <text x="24" y="487" fill="#7cadd9" font-size="13" xml:space="preserve">Data</text>
-<text x="24" y="510" fill="#c9d1dc" font-size="14" xml:space="preserve">PostgreSQL / SQLite</text>
+<text x="24" y="510" fill="#c9d1dc" font-size="16" xml:space="preserve">PostgreSQL / SQLite</text>
 <text x="24" y="541" fill="#7cadd9" font-size="13" xml:space="preserve">Tools</text>
-<text x="24" y="564" fill="#c9d1dc" font-size="14" xml:space="preserve">Git / Docker / Tauri</text>
+<text x="24" y="564" fill="#c9d1dc" font-size="16" xml:space="preserve">Git / Docker / Tauri</text>
 <text x="24" y="595" fill="#7cadd9" font-size="13" xml:space="preserve">Environment</text>
-<text x="24" y="618" fill="#c9d1dc" font-size="14" xml:space="preserve">Linux / Windows</text>
+<text x="24" y="618" fill="#c9d1dc" font-size="16" xml:space="preserve">Linux / Windows</text>
 <text x="24" y="660" fill="#7da594" font-size="14" xml:space="preserve">github --public-stats</text>
 <text x="24" y="689" fill="#7cadd9" font-size="13" xml:space="preserve">Repositories</text>
-<text x="24" y="712" fill="#c9d1dc" font-size="14" xml:space="preserve">16 public</text>
+<text x="24" y="712" fill="#c9d1dc" font-size="16" xml:space="preserve">16 public</text>
 <text x="24" y="743" fill="#7cadd9" font-size="13" xml:space="preserve">Stars</text>
-<text x="24" y="766" fill="#c9d1dc" font-size="14" xml:space="preserve">1 received</text>
+<text x="24" y="766" fill="#c9d1dc" font-size="16" xml:space="preserve">1 received</text>
 <text x="24" y="797" fill="#7cadd9" font-size="13" xml:space="preserve">Network</text>
-<text x="24" y="820" fill="#c9d1dc" font-size="14" xml:space="preserve">6 followers / 6 following</text>
+<text x="24" y="820" fill="#c9d1dc" font-size="16" xml:space="preserve">6 followers / 6 following</text>
 <text x="24" y="859" fill="#7da594" font-size="14" xml:space="preserve">languages --by-code-size</text>
 <text x="24" y="887" fill="#c9d1dc" font-size="13" xml:space="preserve">TypeScript 50.0%</text>
 <text x="24" y="910" fill="#c9d1dc" font-size="13" xml:space="preserve">HTML 25.9%</text>
 <text x="24" y="933" fill="#c9d1dc" font-size="13" xml:space="preserve">Ruby 15.3%</text>
 <text x="24" y="956" fill="#c9d1dc" font-size="13" xml:space="preserve">CSS 5.3%</text>
 <text x="24" y="979" fill="#728395" font-size="11" xml:space="preserve">Public, non-fork repos · GitHub Linguist bytes</text>
-<path d="M24 996 H436" stroke="#263343"/>
+<path d="M24 996 H336" stroke="#263343"/>
 <text x="24" y="1018" fill="#728395" font-size="10" xml:space="preserve">updated 2026-11-06 UTC  /  source: api.github.com</text>
 </g></svg>
